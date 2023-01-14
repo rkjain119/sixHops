@@ -6,8 +6,11 @@ const data = [
   { id: '5', name: 'Shantikumar', connections: ['3', '2'] },
 ]
 export default data
+
 export type TypeNetworkData = typeof data
+
 console.log(typeof data)
+
 export interface Props {
   networkData: TypeNetworkData
   setNetworkData: React.Dispatch<React.SetStateAction<TypeNetworkData>>

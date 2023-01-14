@@ -93,7 +93,7 @@ export default function App() {
             />
           </div>
         </div>
-        <div className='px-4 py-5 sm:p-6 overflow-scroll'>
+        <div className='px-4 py-5 sm:p-6 overflow-x-auto sm:overflow-hidden'>
           <div>Users</div>
           <ListUsers
             setNetworkData={setNetworkData}
